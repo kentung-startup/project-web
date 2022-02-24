@@ -124,3 +124,20 @@ li a:hover {
 .hover:hover {
   box-shadow: 0 0 10px #3498db inset, 0 0 10px 4px #3498db;
 }
+
+.footer {
+  margin-top: 150px;
+}
+
+.hyperlink {
+  text-decoration: none;
+}
+
+.icon {
+  width: 45px;
+}
+
+.footer-col {
+  text-align: center; 
+  width: auto;
+}

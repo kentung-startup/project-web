@@ -67,3 +67,20 @@
     background-color: #000;
     border: #fff solid;
   }
+
+  .footer {
+    margin-top: 150px;
+  }
+  
+  .hyperlink {
+    text-decoration: none;
+  }
+  
+  .icon {
+    width: 45px;
+  }
+  
+  .footer-col {
+    text-align: center; 
+    width: auto;
+  }
