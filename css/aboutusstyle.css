@@ -1,0 +1,86 @@
+/* ---------- */
+/* Style Umum */
+/* ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.bg {
+  background-color: #000;
+}
+
+/* ------------ */
+/* Style Navbar */
+/* ------------ */
+nav {
+  padding: 0 100px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  width: max-content;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 45px;
+  text-decoration: none;
+}
+
+/* ------------- */
+/* Style Content */
+/* ------------- */
+.judul_content {
+  font-size: 45px;
+}
+
+#content {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 30px;
+  text-align: justify;
+  width: 80%;
+  color: #dddddd;
+}
+
+/* ------------------ */
+/* Style Efek Button  */
+/* ------------------ */
+.contactus {
+  width: max-content;
+}
+
+.btn_contact {
+  padding: 2px 15px;
+  color: #fff;
+  background-color: #000;
+  border: #fff solid;
+}
+
+.footer {
+  margin-top: 150px;
+}
+
+.hyperlink {
+  text-decoration: none;
+}
+
+.icon {
+  width: 45px;
+}
+
+.footer-col {
+  text-align: center;
+  width: auto;
+}
