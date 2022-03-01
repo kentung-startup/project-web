@@ -68,6 +68,9 @@ li a {
   border: #fff solid;
 }
 
+/* ------------ */
+/* Style Footer */
+/* ------------ */
 .footer {
   margin-top: 150px;
 }
@@ -83,4 +86,13 @@ li a {
 .footer-col {
   text-align: center;
   width: auto;
+}
+
+/* ---------------- */
+/* Navbar Responsif */
+/* ---------------- */
+@media screen and (max-width: 980px) {
+  .nav-kanan {
+    display: none;
+  }
 }
