@@ -15,27 +15,109 @@
 /* Style Navbar */
 /* ------------ */
 nav {
-  padding: 0 100px;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
-  margin-bottom: 0;
-  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  z-index: 99;
+  margin-bottom: 100px;
+  padding-top: 5px;
 }
 
 li {
-  float: right;
-  width: max-content;
+  list-style-type: none;
 }
 
-li a {
+ul {
   display: block;
-  color: white;
+  float: left;
+}
+
+ul a {
+  display: block;
   text-align: center;
-  padding: 14px 45px;
+  padding: 16px 50px;
   text-decoration: none;
+  color: #fff;
+}
+
+img {
+  /* width: 100px; */
+}
+
+.nav-kanan {
+  /* align-items: center; */
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.nav-kiri {
+  display: flex;
+  width: 20%;
+}
+
+.nav-link-masuk {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: calc(100% - 700px);
+}
+
+.benefit-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.nav-logo {
+  height: 42px;
+  margin-right: 27px;
+  transform: translateY(7px);
+  width: 100px;
+}
+
+.main-nav {
+  list-style: none;
+}
+
+.nav-kanan-second {
+  align-items: left;
+  display: none;
+  width: 20%;
+}
+
+.container-mui {
+  width: 100%;
+  /* margin: 0px auto; */
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.nav-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0px;
+}
+
+.nav-masuk a {
+  /* background-color: #e2f3f4; */
+  font-size: 15px;
+  display: block;
+  margin-top: 0px;
+  width: 100px;
+  color: #fff;
+  padding: 10px 10px;
+  /* font-weight: bold; */
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  /* box-shadow: 0px 1px 3px rgb(0 0 0 / 20%), 0px 2px 1px rgb(0 0 0 / 12%), */
+  /* 0px 1px 1px rgb(0 0 0 / 14%) !important; */
 }
 
 /* ------------- */
@@ -114,4 +196,53 @@ li a {
   .nav-kanan {
     display: none;
   }
+}
+
+/* --- Hamburger Menu --- */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu-toggle input {
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  left: -6px;
+  top: -3px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: #e2f3f4;
+  border-radius: 5px;
+}
+
+/*--- Hamburger Menu Animasi ---*/
+.menu-toggle span:nth-child(2) {
+  transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+  transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+  transform: rotate(45deg) translate(1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+  transform: rotate(-45deg) translate(-1px, 2px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+  transform: scale(0);
 }
