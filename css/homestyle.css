@@ -370,6 +370,11 @@ ul a {
   }
 }
 
+.judul-contactus {
+  font-size: 22px;
+  color: #dddddd;
+}
+
 /* Layar HP */
 @media screen and (max-width: 400px) {
   .box-resp {
@@ -388,6 +393,19 @@ ul a {
   }
 
   .bg {
+    font-size: 10px;
+  }
+
+  .img-contactus {
+    width: 100%;
+    height: 200px;
+  }
+
+  .judul-contactus {
+    font-size: 15px;
+  }
+
+  .content-contactus {
     font-size: 10px;
   }
 }
